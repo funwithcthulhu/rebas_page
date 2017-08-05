@@ -1,0 +1,120 @@
+* {
+  padding: 0
+  margin: 0
+
+}
+
+/*p {
+  min-width: 50%;
+  max-width:100%;
+  min-height: 50%;
+  max-height:100%;
+  overflow:hidden;
+}
+*/
+/*img.mainpicture {
+  min-width: 10%;
+  max-width: 50%;
+  min-height: 10%;
+  max-height: 50%;
+  overflow: scroll;
+}
+*/
+body {
+  background-color: #FFF;
+  font-family: 'Raleway', sans-serif;
+}
+
+li.logo {
+  visibility: hidden;
+}
+
+
+/*img.logo {
+  height:25%;
+  width:25%;
+}
+*/
+
+/*.navigation {
+  text-align: center;
+  border: 1px solid gray;
+  position:fixed;
+  z-index:10000;
+  background-color: #FFF;
+  left:0;
+  top:0;
+
+  width:100%;
+  min-height:0%;
+  max-height: 100%;
+  min-width: 0%;
+  max-width: 100%;
+  overflow:hidden;
+}
+*/
+li {
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 2px;
+  padding: 20px 0px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+li.link:hover {
+  color: red /*#DBE9EE*/
+}
+.banner {
+  /*background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+*/
+/*
+  background-image: url(https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/10313859_10204361187498233_5460158886302228507_n.jpg?oh=d6cc618cd643dce31f395b5084a8a3eb&oe=5A040696);
+*/
+  background-image: url(https://scontent-dft4-2.xx.fbcdn.net/v/t1.0-9/1503842_10202983764263513_1648000848_n.jpg?oh=5ee22e86736eb11a3d9f828ec4d5cc92&oe=59D11354);
+  background-repeat: repeat;
+  background-size:50%  ;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 700px;
+  width: 100%;
+  margin:0;
+  padding:0;
+  min-height:300px;
+  max-height:500px;
+  min-width: 50%;
+  max-width: 100%;
+  overflow:hidden;
+}
+
+#banner-content {
+  border: 1px solid #FFF;
+  position: relative;
+  top: 20%;
+  width: 60%;
+  padding: 10px 50px 10px 30px;
+  margin: auto;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 70%;
+}
+
+/*.mainpicture {
+  height: 50%;
+  width:50%;
+  border: 5px solid #FFF;
+}
+*/
